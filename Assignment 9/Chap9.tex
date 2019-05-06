@@ -1,0 +1,327 @@
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage[top=2cm, bottom=1.5cm, left=1cm, right=1cm]{geometry}
+\usepackage{amsmath, amssymb, amsthm,graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\lhead{\today}
+\chead{MV Stats Chapter 9}
+\rhead{Justin Hood}
+
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newtheorem{lem}{Lemma}
+
+\begin{document}
+\begin{description}
+\item[9.1]\hfill\\
+Consider the covariance matrix,
+\[\rho=\begin{bmatrix}
+1.0 & 0.63 & 0.45\\0.63 & 1.0 & 0.35\\0.45 & 0.35 & 1.0 
+\end{bmatrix} \]
+Consider the random variables,
+\begin{align*}
+Z_1 &= .9F_1+\varepsilon_1\\
+Z_2 &= .7F_1+\varepsilon_2\\
+Z_3 &= .5F_1+\varepsilon_3
+\end{align*}
+and,
+\[\Psi=Cov(\varepsilon )=\begin{bmatrix}
+0.19 & 0 & 0\\
+0 & 0.51 & 0\\
+0 & 0 & .75
+\end{bmatrix} \]
+We construct the $L$ matrix as,
+\[L=\begin{bmatrix}
+0.9\\0.7\\0.5
+\end{bmatrix} \]
+Then,
+\begin{align*}
+\rho &= LL^T+\Psi\\
+&=\begin{bmatrix}
+0.9\\0.7\\0.5
+\end{bmatrix} \begin{bmatrix}
+0.9 & 0.7 & 0.5
+\end{bmatrix}+\begin{bmatrix}
+0.19 & 0 & 0\\
+0 & 0.51 & 0\\
+0 & 0 & .75
+\end{bmatrix}\\
+&=\begin{bmatrix}
+0.81 & 0.63 & 0.45\\ 0.63 & 0.49 & 0.35\\ 0.45 & 0.35 & 0.25
+\end{bmatrix}+\begin{bmatrix}
+0.19 & 0 & 0\\
+0 & 0.51 & 0\\
+0 & 0 & .75
+\end{bmatrix}\\
+&=\begin{bmatrix}
+1.0 & 0.63 & 0.45\\0.63 & 1.0 & 0.35\\0.45 & 0.35 & 1.0 
+\end{bmatrix}
+\end{align*}
+As desired.
+\item[9.2]\hfill\\
+Now, using the formula,
+\[h_i^2=\sum_{j=1}^ml_{ij}^2\]
+Then,
+\begin{align*}
+h_1^2 &= 0.9^2\\
+&=0.81\\
+h_2^2 &= 0.7^2\\
+&=0.49\\
+h_3^2 &= 0.5^2\\
+&=0.25
+\end{align*}
+This is to say that the first factor accounts for 81\% of the variance in the observed variable, the second accounts for 49\% and the third 25\%.\\
+Next, we consider,
+\begin{align*}
+Corr(Z_i,F_1) &= Cov(Z_i, F_1)\\
+&=Cov((l_{i1}F_1+\varepsilon_i), F_1)\\
+&=l_{i1}Var(F_1)+Cov(\varepsilon_i,F_1) && \text{From before, we know these values}\\
+&=l_{i1}
+\end{align*}
+Thus,
+\begin{align*}
+Corr(Z_1,F_1) &= 0.9\\
+Corr(Z_2,F_1) &= 0.7\\
+Corr(Z_3,F_1) &= 0.5
+\end{align*}
+Based on this, we will expect that the first variable $Z_1$ has the most weight in ``naming" the factor as it has the largest correlation to the factor.
+\item[9.3]\hfill\\
+Given the eigenvalues and associated vectors to the $\rho$ matrix, we consider an $m=1$ factor model and construct the loading matrix as,
+\begin{align*}
+L &= \sqrt{\lambda_1}e_1\\
+&=\sqrt{1.96}\begin{bmatrix}
+0.625\\0.593\\0.507
+\end{bmatrix}\\
+&=\begin{bmatrix}
+0.8757\\0.8311\\0.7111
+\end{bmatrix}
+\end{align*}
+Then,
+\[\Psi=\rho -LL^T=\begin{bmatrix}
+0.2330860 & -0.0978302 & -0.1727161\\
+-0.0978302 & 0.3092618 & -0.2409810\\
+-0.1727161 & -0.2409810 & 0.4943692
+\end{bmatrix} \]
+Taking the diagonal entries of this matrix,
+\[\Psi=\begin{bmatrix}
+0.2330860 & 0 & 0\\
+0 & 0.3092618 & 0\\
+0 & 0 & 0.4943692
+\end{bmatrix}\]
+We see that this matrix is different than the original from 9.1. We next compute the proportion of total variance explained by the first factor as,
+\[\frac{\lambda_1}{\sum \lambda_i}=\frac{1.963283}{3}=0.6544277\]
+\item[9.4]\hfill\\
+We compute,
+\[\tilde{\rho}=\begin{bmatrix}
+0.81 & 0.63 & 0.45\\
+0.63 & 0.49 & 0.35\\
+0.45 & 0.35 & 0.25
+\end{bmatrix} \]
+We then compute the eigenvalues and eigenvectors,
+\begin{align*}
+\lambda_i &= 1.55,\ 0,\ 0\\
+\end{align*}
+We want the eigenvector for the largest eigenvalue,
+\[e_1=\begin{bmatrix}
+0.7228974\\0.5622535\\0.4016097
+\end{bmatrix}\]
+Then, $L=\sqrt{\lambda_1}e_1=\begin{bmatrix}
+0.9\\0.7\\0.5
+\end{bmatrix}$ This aligns with the original values in 9.1, as we would expect for $m=1$.
+\item[9.12]\hfill\\
+We begin by computing $S_n$ as,
+\[S_n=\frac{23}{24}S=\begin{bmatrix}
+0.010610667 & 0.007684875 & 0.007820000\\
+0.007684875 & 0.006149625 & 0.005754792\\
+0.007820000 & 0.005754792 & 0.006490792
+\end{bmatrix} \]
+And,
+\[\Psi=S_n-LL^T=\begin{bmatrix}
+0.0001658267 & -5.650000e-07 & 1.700000e-06\\
+-0.0000005650 & 4.945850e-04 & 1.991667e-06\\
+0.0000017000 & 1.991667e-06 & 6.385417e-04
+\end{bmatrix} \]
+Taking the diagonals, we construct the following table,
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Variable & Specific Variance\\\hline
+ln(Length) & 0.0001658267\\\hline
+ln(Width) & 0.0004945850\\\hline
+ln(Height) & 0.0006385417\\\hline
+\end{tabular}
+\end{center}
+Next, we compute the communalities for the variables as before as,
+\begin{center}
+\begin{tabular}{|l|l|}
+\hline
+Variable & Communality\\\hline
+ln(Length) & $0.1022^2=0.01044484$\\\hline
+ln(Width) & $0.0752^2=0.00565504$\\\hline
+ln(Height) & $0.0765^2=0.00585225$\\\hline
+\end{tabular}
+\end{center}
+Next, we compute the proportion of variance explained by the factor as,
+\[\frac{\sum h_i^2}{\sum S_{n_{ii}}}=\frac{0.02195213}{0.02325108}=0.9441336\]
+Finally, we compute the residual matrix as,
+\[Resid=S_n-LL^T-Psi=\begin{bmatrix}
+0 & -5.650000e-07 & 1.700000e-06\\
+-5.65e-07 & 0 & 1.991667e-06\\
+1.70e-06 & 1.991667e-06 & 0
+\end{bmatrix} \]
+\item[9.13]\hfill\\
+We consider the following hypotheses,
+\begin{align*}
+H_0 &= \Sigma=LL^T+\Psi\\
+H_A &= \Sigma\text{ unrestricted}
+\end{align*}
+We compute the test statistic,
+\[(n-1(2p+4m+5)/6)\ln\left[\frac{|LL^T+\Psi|}{|S_n|}\right]=0.0530115\]
+We also test our condition,
+\begin{align*}
+m &< \frac{1}{2}\left(2p+1-\sqrt{8p+1}\right)\\
+&=\frac{1}{2}(2(3)+1-\sqrt{8(3)+1})\\
+&=\frac{1}{2}(7-5)\\
+&=1
+\end{align*}
+But, since we have defined $m=1$ in our null hypothesis, this condition does not hold.
+\item[9.20]\hfill\\
+We consider the data from Table 1.5 for variables 1, 2, 5, and 6. To begin, we construct the $S$ matrix in R,
+\[\begin{bmatrix}
+2.5000000 & -2.780488 & -0.5853659 & -2.231707\\
+-2.7804878 & 300.515679 & 6.7630662 & 30.790941\\
+-0.5853659 &  6.763066 & 11.3635308 & 3.126597\\
+-2.2317073 & 30.790941 & 3.1265970 & 30.978513
+\end{bmatrix}\]
+We then compute the PCA solution for a $m=1$ model by computing the following,
+\begin{center}
+\begin{tabular}{|l|r|r|}
+\hline
+Variable & Factor 1 & Communality\\\hline
+$X_1$ & $ -0.1749782 $ & $ 0.03061737 $\\
+$X_2$ & $ 17.3246829 $ & $ 300.14463897 $\\
+$X_5$ & $ 0.4213923 $ & $ 0.17757147 $\\
+$X_6$ & $1.9587473$ & $3.83669086$\\\hline
+\end{tabular}
+\end{center}
+Here, we see that the variance of this model is $304.1895$ which accounts for $88.07955\%$ of the total variance.\\
+Next, we consider the $m=2$ model,
+\begin{center}
+\begin{tabular}{|l|r|r|r|}
+\hline
+Variable & Factor 1 & Factor 2 & Communality\\\hline
+$X_1$ & $ -0.1749782 $ & $ -0.4048141 $ & $0.1944918$\\
+$X_2$ & $ 17.3246829 $ & $ -0.6085601 $ & $300.5149843$\\
+$X_5$ & $ 0.4213923 $ & $ 0.7421918 $ & $0.7284201$\\
+$X_6$ & $1.9587473$ & $5.1867451$ & $30.7390159$\\\hline
+\end{tabular}
+\end{center}
+This model has a combined variance of $332.18$, which accounts for $96.18343\%$ of the total variance.\\
+We now consider the factor analysis of this model with $m=1$,
+\begin{center}
+\begin{tabular}{|l|r|r|}
+\hline
+Variable & Factor 1 & Communality\\\hline
+$X_1$ & $ -0.3241708 $ & $ 0.10508670 $\\
+$X_2$ & $ 0.4096201 $ & $ 0.16778859 $\\
+$X_5$ & $ 0.2316952 $ & $ 0.05368266 $\\
+$X_6$ & $ 0.7710411 $ & $ 0.59450442 $\\\hline
+\end{tabular}
+\end{center}
+This model has a variance of $0.921$ which accounts for $23\%$ of the overall variance.\\
+We now consider the $m=2$ model,
+\begin{center}
+\begin{tabular}{|l|r|r|r|}
+\hline
+Variable & Factor 1 & Factor 2 & Communality\\\hline
+$X_1$ & $ -0.398 $ & $ 0.347 $ & $ 0.27841057 $\\
+$X_2$ & $ 0.479 $ & $ 0.256 $ & $ 0.29469219 $\\
+$X_5$ & $ 0.255 $ & $ -0.024 $ & $ 0.06556664 $\\
+$X_6$ & $ 0.656 $ & $0.021$ & $ 0.43043576 $\\\hline
+\end{tabular}
+\end{center}
+We may then tabulate $\Psi$ for each of these methods as,
+\begin{align*}
+\Psi_1&=\begin{bmatrix}
+1-.10508670\\
+& 1-0.16778859\\
+&& 1-0.05368266\\
+&&& 1-0.59450442
+\end{bmatrix}\\
+&=\begin{bmatrix}
+0.8949133\\
+& 0.8322114\\
+&& 0.9463173\\
+&&& 0.4054956
+\end{bmatrix}\\
+\Psi_2 &= \begin{bmatrix}
+1-0.27841057\\
+& 1-0.29469219\\
+&& 1-0.06556664\\
+&&& 1-0.43043576
+\end{bmatrix}\\
+&=\begin{bmatrix}
+0.7215894\\
+& 0.7053078\\
+&& 0.9344334\\
+&&& 0.5695642
+\end{bmatrix}
+\end{align*}
+We see that for the PCA model with $m=2$, $X_2$ and $X_6$ are the largest in factor 1, and for factor two it is $X_5$ and $X_6$. For the MLE analysis, we see that the $X_2$ and $X_6$ dominate Factor 1, and $X_1$ and $X_2$ dominate factor 2.
+\item[9.21]\hfill\\
+Next, we consider the $m=2$ case, and perform the varimax rotation. Using built in $R$ functions, we compute the rotation matrix to be,
+\[T=\begin{bmatrix}
+0.9724650 & 0.2330489\\
+-0.2330489 & 0.9724650
+\end{bmatrix} \]
+Our PCA two factor analysis is then transformed to,
+\begin{center}
+\begin{tabular}{|l|r|r|r|}
+\hline
+Variable & Factor 1 & Factor 2 & Communality\\\hline
+$X_1$ & $ -0.07581869 $ & $ -0.4344461 $ & $ 0.1944918 $\\
+$X_2$ & $ 16.98947231 $ & $ 3.4456951 $ & $ 300.515 $\\
+$X_5$ & $ 0.23682229 $ & $ 0.8199605 $ & $ 0.7284201 $\\
+$X_6$ & $ 0.69604788 $ & $ 5.5004121 $ & $ 30.73902 $\\\hline
+\end{tabular}
+\end{center}
+Here, factor 1 has variance $289.1885$ which accounts for $83.73593\%$ of the variance. Factor 2 then has variance $42.98843$ which accounts for $12.44751\%$. Using $R$, we perform this varimax analysis on the max likelyhood analysis, arriving at,
+\begin{center}
+\begin{tabular}{|l|r|r|r|}
+\hline
+Variable & Factor 1 & Factor 2 & Communality\\\hline
+$X_1$ & $ -0.112 $ & $ -0.516 $ & $ 0.2784106 $\\
+$X_2$ & $ 0.537 $ & $ 0.080 $ & $ 0.2946922 $\\
+$X_5$ & $ 0.190 $ & $ 0.172 $ & $ 0.06556664 $\\
+$X_6$ & $ 0.538 $ & $ 0.375 $ & $ 0.4304358 $\\\hline
+\end{tabular}
+\end{center}
+Here, factor 1 has variance $0.626$ which accounts for $15.7\%$ of the variance. Factor 2 then has variance $0.443$ which accounts for $11.1\%$. We also note that these results are fairly similar to those from before.
+\item[9.23]\hfill\\
+We now construct the correlation matrix $R$ as,
+\[R=\begin{bmatrix}
+1.0000000 & -0.1014419 & -0.1098249 & -0.2535928\\
+-0.1014419 &  1.0000000 & 0.1157320 & 0.3191237\\
+-0.1098249 & 0.1157320 & 1.0000000 & 0.1666422\\
+-0.2535928 & 0.3191237 & 0.1666422 & 1.0000000
+\end{bmatrix} \]
+Our 1 and 2 factor PC solutions are then,
+\begin{center}
+\begin{tabular}{|l|r|r|r|}
+\hline
+Variable & Factor 1 & Factor 2 \\\hline
+$X_1$ & $ -0.5638413 $ & $ 0.2427710 $ \\
+$X_2$ & $ 0.6450049 $ & $ 0.5212837 $ \\
+$X_5$ & $ 0.4769735 $ & $ -0.7351875 $ \\
+$X_6$ & $ 0.7708354 $ & $ 0.1963048 $ \\\hline
+Variance & $1.555639$ & $0.9097107$ \\
+\% Explained & $ 38.89098 $ & $0.2274277$ \\\hline
+\end{tabular}
+\end{center}
+The maximal likelyhood estimates will be the same as before, as the $R$ matrix is computaionally singular for the fractanal funtion in R.  We see that compared to 9.20, the relevant variables for each factor are different, which suggests that different results are obtained for different matrices.
+\end{description}
+\end{document}
