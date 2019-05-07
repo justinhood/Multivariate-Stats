@@ -5,7 +5,7 @@
 }
 
 \usepackage{graphicx} % Allows including images
-\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+% %\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 
 %----------------------------------------------------------------------------------------
 %	TITLE PAGE
@@ -339,7 +339,34 @@ Where $q$ is the desired dimensionality of the projection.
 \begin{frame}
 \frametitle{Correspondence Analysis Numerics}
 \begin{itemize}
-\item To 
+\item To perform the correspondence analysis, we follow these steps,
+\begin{enumerate}
+\item Construct $P=\frac{1}{n}X$
+\item Compute, $r=P1_j$, $c=P'1_i$
+\item Then, $D_r=diag(r_1,r_2,\ldots,r_i)$, $D_c=diag(c_1,c_2,\ldots,c_j)$
+\item We also define the matrices $D^{\pm 1/2}$ as you might expect
+\item Then, a SVD is performed on,
+\[A=D^{1/2}_r(P-rc')D^{-1/2}_c\]
+\item Depending on the number and weight of the non-zero singular values, the original correspondence may be written as a lower order sum of the eigenvalues and outer product of the eigenvectors.
+\end{enumerate}
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Summary}
+\begin{itemize}
+\item When confronted with a large and high order data set, there are many options for how to analyze it. From a traditional approach of regression and multivariate extensions of classical statistical tests to PCA, there are many things that can be done.
+\item If the goal of the researcher is to isolate and naturally group the data, Clustering analysis provides many tools for finding the underlying structure in the data.
+\item While each method is not without its relative cost and risk, both computationally and accuracy wise, the relative speed and ease of interpretation of the results of clustering provide powerful tools for researchers to show their data to a larger group of people in a meaningful way.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Sources}
+\begin{itemize}
+\item Johnson, R. and Wichern, D. (2007). Applied multivariate statistical analysis. 6th ed. Upper Saddle River, N.J.: Prentice Hall, pp.671-755.
+\item Pro.arcgis.com. (2019). How Multivariate Clustering works—ArcGIS Pro | ArcGIS Desktop. [online] Available at: https://pro.arcgis.com/en/pro-app/tool-reference/spatial-statistics/how-multivariate-clustering-works.htm [Accessed 2019].
+\item Adams, C. and Franzosa, R. (2008). Introduction to topology. Upper Saddle River, N.J.: Prentice-Hall, Chapter 5.
 \end{itemize}
 \end{frame}
 \end{document} 
