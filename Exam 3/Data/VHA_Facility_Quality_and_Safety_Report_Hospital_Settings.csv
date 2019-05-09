@@ -1,0 +1,168 @@
+VISN,VISN Name,Facility Name,City,Station,ST,Station,Complexity,Risk Standardized Mortality Rate Pneumonia,Risk Standardized Mortality Rate Heart Failure,Risk Standardized Mortality Rate Acute Myocardial Infarction,Nosocomial Infections Ventilator Associated Infections,Nosocomial Infections Central Line Associated Bacteremia,DVT Mechanical Ventilation,DVT Medical ICU,OMELOS
+1,VA New England Health Care System - VISN 1,VAMC/RO,Togus,402,ME,402,2,12.36,8.94,15.87,2.90,1.84,72.20,63.60,0.94
+1,VA New England Health Care System - VISN 1,VAM/ROC,White River Junction,405,VT,405,2,11.66,9.00,13.05,0.00,2.16,76.70,77.60,-0.06
+1,VA New England Health Care System - VISN 1,Edith N Rogers Memorial Veterans Hospital,Bedford,518,MA,518,3,,,,,,,,
+1,VA New England Health Care System - VISN 1,"VA Boston HCS
+W Roxbury, Brockton Jamaica Plns",West Roxbury,523,MA,523,1a,12.81,7.31,13.34,1.93,2.75,83.90,85.80,0.03
+1,VA New England Health Care System - VISN 1,VAMC,Manchester,608,NH,608,3,,,,,,,,
+1,VA New England Health Care System - VISN 1,VAMC,Northampton,631,MA,631,3,,,,,,,,
+1,VA New England Health Care System - VISN 1,VAMC,Providence,650,RI,650,2,12.06,9.12,13.19,3.48,3.27,87.30,89.80,0.56
+1,VA New England Health Care System - VISN 1,VA Connecticut HCS,West Haven,689,CT,689,1a,12.37,9.57,14.89,2.06,2.71,67.60,67.70,0.32
+2,VA Healthcare Network Upstate New York - VISN 2,Samuel S. Stratton VAMC ,Albany,528,NY,528A8,2,13.10,10.79,13.64,5.33,1.84,91.20,66.00,-0.37
+2,VA Healthcare Network Upstate New York - VISN 2,"VA Western New York HCS Buffalo, Batavia",Buffalo,528,NY,528,1b,13.15,10.07,13.65,5.09,5.90,73.10,85.40,-0.41
+2,VA Healthcare Network Upstate New York - VISN 2,VAMC,Bath,528,NY,528A6,3,13.95,11.35,14.51,0.0,0.0,57.10,59.50,-0.36
+2,VA Healthcare Network Upstate New York - VISN 2,VAMC,Canandaigua ,528,NY,528A5,3,,,,,,,,
+2,VA Healthcare Network Upstate New York - VISN 2,VAMC,Syracuse,528,NY,528A7,1c,13.64,9.44,13.85,1.77,3.80,90.80,85.10,0.61
+3,VA NY/NJ Veterans Healthcare Network - VISN 3,VAMC,Bronx ,526,NY,526,1c,11.56,11.17,13.62,4.02,0.51,62.50,61.80,0.34
+3,VA NY/NJ Veterans Healthcare Network - VISN 3,VA New Jersey HCS,East Orange,561,NJ,561,1b,13.28,9.40,13.10,2.83,0.72,62.90,66.20,-0.22
+3,VA NY/NJ Veterans Healthcare Network - VISN 3,"VA Hudson Valley HCS
+Montrose, Castle Pt",Montrose,620,NY,620,3,12.92,10.75,13.71,,,,,
+3,VA NY/NJ Veterans Healthcare Network - VISN 3,"VA NY Harbor HCS 
+NY Harbor, Brooklyn",New York Harbor,630,NY,630,1a,13.84,7.44,13.74,1.79,0.93,75.86,72.31,0.29
+3,VA NY/NJ Veterans Healthcare Network - VISN 3,VAMC,Northport,632,NY,632,2,13.04,8.24,14.40,0.00,1.01,83.80,87.20,0.33
+4,VA Stars & Stripes Healthcare Network - VISN 4,VAM&RO,Wilmington,460,DE,460,2,12.03,9.85,14.34,3.15,4.24,71.40,76.50,-0.02
+4,VA Stars & Stripes Healthcare Network - VISN 4,James E. Van Zandt VAMC,Altoona,503,PA,503,3,14.09,11.30,14.05,0.00,0.00,0.00,57.10,-0.93
+4,VA Stars & Stripes Healthcare Network - VISN 4,VAMC,Butler,529,PA,529,3,,,,,,,,
+4,VA Stars & Stripes Healthcare Network - VISN 4,Louis A. Johnson VAMC,Clarksburg,540,WV,540,2,11.76,8.99,14.67,0.00,0.00,81.00,47.60,0.37
+4,VA Stars & Stripes Healthcare Network - VISN 4,VAMC,Coatesville,542,PA,542,3,12.52,10.04,,,,,,
+4,VA Stars & Stripes Healthcare Network - VISN 4,VAMC,Erie,562,PA,562,3,12.90,9.57,14.58,0.00,0.00,81.80,78.40,-0.81
+4,VA Stars & Stripes Healthcare Network - VISN 4,VAMC,Lebanon,595,PA,595,2,14.05,11.05,14.33,14.08,1.65,55.60,62.20,-0.23
+4,VA Stars & Stripes Healthcare Network - VISN 4,VAMC,Philadelphia,642,PA,642,1b,12.53,8.38,13.05,9.80,5.69,64.70,64.80,0.74
+4,VA Stars & Stripes Healthcare Network - VISN 4,"VA Pittsburgh HCS
+Heinz, Univ Dr, Highld Dr",Pittsburgh,646,PA,646,1a,13.29,9.63,14.54,5.26,2.37,69.40,73.90,0.39
+4,VA Stars & Stripes Healthcare Network - VISN 4,VAMC,Wilkes-Barre,693,PA,693,2,14.87,10.98,14.65,0.00,0.00,56.30,59.90,-0.69
+5,VA Capitol Health Care Network - VISN 5,"VA Maryland HCS
+Baltimore, Perry Pt",Baltimore,512,MD,512,1b,11.89,10.20,13.58,6.24,4.45,76.00,78.90,0.50
+5,VA Capitol Health Care Network - VISN 5,VAMC,Martinsburg,613,WV,613,2,12.52,9.64,13.14,13.11,3.46,72.70,64.50,0.59
+5,VA Capitol Health Care Network - VISN 5,VAMC,Washington,688,DC,688,1a,12.35,11.35,13.99,2.82,1.15,57.30,58.60,-0.44
+6,VA Mid-Atlantic Health Care Network - VISN 6,VAMC,Beckley,517,WV,517,3,13.87,11.12,13.47,0.00,0.00,81.80,73.30,0.33
+6,VA Mid-Atlantic Health Care Network - VISN 6,VAMC,Durham,558,NC,558,1a,12.80,9.23,13.13,5.30,5.38,63.60,67.30,0.05
+6,VA Mid-Atlantic Health Care Network - VISN 6,VAMC,Fayetteville,565,NC,565,3,12.64,11.19,14.43,0.00,0.00,75.00,63.60,0.74
+6,VA Mid-Atlantic Health Care Network - VISN 6,VAMC,Hampton,590,VA,590,2,12.49,9.40,13.88,3.06,2.41,68.00,58.20,0.42
+6,VA Mid-Atlantic Health Care Network - VISN 6,VAMC,Asheville,637,NC,637,2,12.05,10.09,14.09,4.65,2.76,48.50,42.00,-0.46
+6,VA Mid-Atlantic Health Care Network - VISN 6,H. Holmes McGuire VAMC,Richmond,652,VA,652,1a,14.38,10.01,14.28,4.31,4.11,61.40,71.20,-0.33
+6,VA Mid-Atlantic Health Care Network - VISN 6,VAMC,Salem,658,VA,658,2,12.47,8.66,14.25,11.09,3.81,80.40,85.40,0.26
+6,VA Mid-Atlantic Health Care Network - VISN 6,W.G. (Bill) Hefner VAMC,Salisbury,659,NC,659,2,13.37,10.22,14.00,0.00,4.98,90.90,78.20,-0.11
+7,VA Southeast Network - VISN 7,VAMC,Atlanta,508,GA,508,1a,13.22,11.39,13.90,0.00,2.25,72.00,75.20,0.72
+7,VA Southeast Network - VISN 7,VAMC,Augusta,509,GA,509,1a,13.83,12.88,14.35,8.07,6.99,81.70,73.00,0.63
+7,VA Southeast Network - VISN 7,VAMC,Birmingham,521,AL,521,1b,13.15,8.66,13.69,3.08,5.32,62.10,69.70,0.46
+7,VA Southeast Network - VISN 7,Ralph H. Johnson VAMC,Charleston,534,SC,534,1c,12.43,9.65,13.97,4.19,1.69,72.90,67.50,-0.24
+7,VA Southeast Network - VISN 7,Wm. Jennings Bryan Dorn VAMC,Columbia,544,SC,544,1c,13.35,10.84,14.40,6.87,5.67,62.4,72.5,0.38
+7,VA Southeast Network - VISN 7,Carl Vinson VAMC,Dublin,557,GA,557,3,12.77,10.57,13.79,0.00,0.00,60.90,53.50,-0.09
+7,VA Southeast Network - VISN 7,"Central Alabama Veterans HCS 
+Tuskeegee, Montgomery",Montgomery,619,AL,619,2,12.92,12.82,14.33,0.00,0.00,50.00,71.20,1.64
+7,VA Southeast Network - VISN 7,VAMC,Tuscaloosa,679,AL,679,3,,,,,,,,
+8,VA Sunshine Healthcare Network - VISN 8,VAMC,Bay Pines,516,FL,516,1a,12.62,8.91,13.70,1.36,1.42,72.70,68.40,-1.15
+8,VA Sunshine Healthcare Network - VISN 8,VAMC,Miami,546,FL,546,1b,12.58,9.39,12.98,0.79,6.41,69.20,62.60,0.37
+8,VA Sunshine Healthcare Network - VISN 8,VAMC,West Palm Beach,548,FL,548,1c,12.65,10.22,14.10,2.62,3.27,76.30,66.90,0.88
+8,VA Sunshine Healthcare Network - VISN 8,"N FLA/S GA Veterans HCS Gainesville, Lake Cty",Gainesville,573,FL,573,1a,11.27,9.63,13.22,2.69,2.13,84.83,85.92,-0.36
+8,VA Sunshine Healthcare Network - VISN 8,VAMC,San Juan,672,PR,672,1a,14.58,11.40,13.83,4.09,1.57,63.20,77.20,-0.38
+8,VA Sunshine Healthcare Network - VISN 8,James A. Haley VAMC,Tampa,673,FL,673,1a,13.21,10.84,14.79,9.02,2.08,58.50,53.80,0.10
+8,VA Sunshine Healthcare Network - VISN 8,E Central Florida HCS,Orlando,675,FL,675,98,,,,,,,,
+9,VA Mid South Healthcare Network - VISN 9,VAMC,Huntington,581,WV,581,2,12.51,10.48,12.89,4.89,1.02,80.40,73.80,-0.70
+9,VA Mid South Healthcare Network - VISN 9,VAMC,Lexington,596,KY,596,1c,14.24,12.26,13.54,9.33,3.71,81.80,63.50,0.34
+9,VA Mid South Healthcare Network - VISN 9,VAMC,Louisville,603,KY,603,1c,14.31,10.98,16.42,5.87,6.73,79.50,60.20,0.14
+9,VA Mid South Healthcare Network - VISN 9,VAMC,Memphis,614,TN,614,1a,13.26,12.07,15.96,1.48,1.75,64.40,62.50,0.42
+9,VA Mid South Healthcare Network - VISN 9,VAMC,Mountain Home,621,TN,621,2,12.64,10.46,14.28,1.14,3.44,69.40,55.30,-0.87
+9,VA Mid South Healthcare Network - VISN 9,"Tennessee Valley HCS
+Nashville, Murfreesboro ",Nashville,626,TN,626,1a,12.84,12.01,13.41,3.40,2.34,71.29,71.88,0.8
+10,VA Health Care System of Ohio - VISN 10,VAMC,Chillicothe,538,OH,538,3,,,,,,,,
+10,VA Health Care System of Ohio - VISN 10,VAMC,Cincinnati,539,OH,539,1b,12.29,9.53,13.34,6.83,3.30,85.50,78.20,-0.07
+10,VA Health Care System of Ohio - VISN 10,"Louis Stokes VAMC
+Cleveland, Brecksville",Cleveland,541,OH,541,1a,11.63,10.50,13.81,9.78,0.64,72.90,72.30,-0.57
+10,VA Health Care System of Ohio - VISN 10,VAMC,Dayton,552,OH,552,1c,11.93,9.12,13.04,4.82,4.26,52.30,45.20,-0.48
+10,VA Health Care System of Ohio - VISN 10,Chalmers Wylie Outpt Clinic  ,Columbus,757,OH,757,3,,,,,,,,
+11,Veterans In Partnership - VISN 11,VA Ann Arbor HCS,Ann Arbor,506,MI,506,1b,12.11,9.88,13.87,4.84,1.99,69.60,63.20,0.92
+11,Veterans In Partnership - VISN 11,VAMC,Battle Creek,515,MI,515,3,14.28,9.47,14.52,,,,,
+11,Veterans In Partnership - VISN 11,VA Illiana HCS,Danville,550,IL,550,2,12.32,10.27,15.01,0.00,0.00,95.00,69.00,-1.15
+11,Veterans In Partnership - VISN 11,John D. Dingell VAMC,Detroit,553,MI,553,1c,13.62,10.06,14.03,3.87,10.48,79.40,79.80,0.43
+11,Veterans In Partnership - VISN 11,Richard L. Roudebush VAMC,Indianapolis,583,IN,583,1a,12.12,10.50,14.08,4.56,4.21,66.70,71.20,-0.06
+11,Veterans In Partnership - VISN 11,"VA Northern Indiana HCS Marion, Ft Wayne",Marion,610,IN,610,3,13.85,10.94,14.94,,,,,
+11,Veterans In Partnership - VISN 11,Aleda E. Lutz VAMC,Saginaw,655,MI,655,3,12.86,10.75,13.27,0.00,0.00,66.70,70.80,-1.37
+12,The Great Lakes Health Care System - VISN 12,"VA Chicago HCS
+(Jessie Brown)","Chicago, West Side ",537,IL,537,1b,12.76,8.14,13.23,0.00,0.35,65.70,74.50,-0.55
+12,The Great Lakes Health Care System - VISN 12,VAMC,North Chicago,556,IL,556,2,13.78,10.18,12.48,8.20,0.00,85.70,82.10,-0.15
+12,The Great Lakes Health Care System - VISN 12,Edward Hines Jr. VA Hospital,Hines,578,IL,578,1a,12.82,12.17,13.44,4.07,2.46,56.70,61.90,0.62
+12,The Great Lakes Health Care System - VISN 12,VAMC,Iron Mountain,585,MI,585,3,12.69,10.60,13.67,0.00,0.00,77.80,50.90,-0.14
+12,The Great Lakes Health Care System - VISN 12,William S. Middleton Memorial Veterans Hospital,Madison,607,WI,607,1b,12.11,10.19,13.08,5.91,1.96,71.30,62.10,-0.18
+12,The Great Lakes Health Care System - VISN 12,VAMC,Tomah,676,WI,676,3,14.49,10.37,13.75,,,,,
+12,The Great Lakes Health Care System - VISN 12,Clement J. Zablocki VAMC,Milwaukee,695,WI,695,1a,11.06,10.58,12.07,6.14,1.44,88.70,79.00,-0.47
+15,VA Heartland Network - VISN 15,"VA Eastern Kansas HCS
+Topeka, Leavenworth",Topeka,589,KS,589A5,2,12.75,9.74,13.05,0.00,2.92,78.26,78.08,-0.65
+15,VA Heartland Network - VISN 15,Robert J. Dole VAMC ,Wichita,589,KS,589A7,2,12.45,10.07,13.07,0.00,0.00,82.10,76.00,-0.30
+15,VA Heartland Network - VISN 15,Harry S. Truman VAMC,Columbia,589,MO,589A4,1c,13.19,9.31,12.46,1.64,4.24,86.10,78.30,-0.17
+15,VA Heartland Network - VISN 15,VAMC,Kansas City,589,MO,589,2,12.36,10.14,14.43,2.60,1.99,69.50,59.90,0.07
+15,VA Heartland Network - VISN 15,VAMC,Marion,657,IL,657A5,2,12.64,10.70,16.04,0.00,0.00,79.20,63.70,0.10
+15,VA Heartland Network - VISN 15,John J. Pershing VAMC,Poplar Bluff,657,MO,657A4,3,13.15,13.17,14.46,,,,,
+15,VA Heartland Network - VISN 15,"St Louis VAMC
+St Louis, Jefferson Barracks",St. Louis,657,MO,657,1a,12.10,7.89,13.60,5.97,2.76,77.40,69.80,0.80
+16,South Central VA Health Care Network - VISN 16,VAMC,Alexandria,502,LA,502,3,13.71,8.90,14.34,0.00,0.00,56.50,52.80,-0.49
+16,South Central VA Health Care Network - VISN 16,Gulf Coast Vets HCS,Biloxi,520,MS,520,2,11.84,8.51,12.97,0.00,0.00,34.40,38.20,-0.47
+16,South Central VA Health Care Network - VISN 16,VAMC,Fayetteville,564,AR,564,2,12.70,8.49,13.71,0.00,0.00,73.30,75.40,-0.73
+16,South Central VA Health Care Network - VISN 16,VAMC,Houston,580,TX,580,1a,14.36,10.59,14.69,6.82,2.72,66.70,61.40,-0.34
+16,South Central VA Health Care Network - VISN 16,G.V. Montgomery VAMC,Jackson,586,MS,586,1b,13.54,11.26,16.84,4.41,5.25,87.40,78.90,-0.30
+16,South Central VA Health Care Network - VISN 16,"Central AK Veterans HCS
+Little Rock, Little Rock N",Little Rock,598,AR,598,1a,12.15,10.06,13.11,2.43,3.17,75.10,72.80,-0.07
+16,South Central VA Health Care Network - VISN 16,VAMC,Muskogee,623,OK,623,3,11.82,10.28,12.79,0.00,3.22,75.00,64.00,-0.49
+16,South Central VA Health Care Network - VISN 16,VAMC,New Orleans,629,LA,629,98,,,,,,,,
+16,South Central VA Health Care Network - VISN 16,VAMC,Oklahoma City,635,OK,635,1b,13.49,9.66,14.67,3.30,0.69,65.60,70.70,0.57
+16,South Central VA Health Care Network - VISN 16,Overton Brooks VAMC,Shreveport,667,LA,667,1c,12.46,12.07,13.40,1.15,1.71,61.00,52.20,1.04
+17,VA Heart of Texas Health Care Network - VISN 17,VA North Texas HCS,Dallas,549,TX,549,1a,13.00,11.63,13.81,0.53,0.97,61.60,62.90,0.80
+17,VA Heart of Texas Health Care Network - VISN 17,South Texas Veterans HCS  San Antonio Kerrville,San Antonio,671,TX,671,1a,11.83,10.30,13.04,2.70,1.10,63.60,63.80,-0.10
+17,VA Heart of Texas Health Care Network - VISN 17,"Cntrl Texas Veterans HCS
+Temple, Waco, Marlin",Temple,674,TX,674,1c,12.41,9.27,13.57,1.72,1.05,83.30,72.50,-0.76
+18,VA Southwest Health Care Network - VISN 18,New Mexico HCS,Albuquerque,501,NM,501,1a,12.87,8.72,11.58,10.41,2.66,74.20,61.30,0.01
+18,VA Southwest Health Care Network - VISN 18,Amarillo VA HCS,Amarillo,504,TX,504,2,16.21,10.15,15.94,4.43,2.74,68.50,75.50,-0.42
+18,VA Southwest Health Care Network - VISN 18,West Texas VA HCS,Big Spring,519,TX,519,3,13.09,10.29,14.68,,,,,
+18,VA Southwest Health Care Network - VISN 18,Carl T. Hayden VAMC,Phoenix,644,AZ,644,1b,13.44,8.67,14.54,3.02,1.33,76.10,70.70,-0.09
+18,VA Southwest Health Care Network - VISN 18,N Arizona VA HCS,Prescott,649,AZ,649,3,13.36,10.91,14.03,0.00,0.00,0.00,44.4,0.33
+18,VA Southwest Health Care Network - VISN 18,S Arizona VA HCS,Tucson,678,AZ,678,1a,10.38,10.35,13.65,1.89,3.27,73.30,66.10,-0.48
+18,VA Southwest Health Care Network - VISN 18,El Paso VA HCS,El Paso,756,TX,756,3,,,,,,,,
+19,Rocky Mountain Network - VISN 19,VA Montana HCS,Fort Harrison,436,MT,436,2,11.71,10.12,13.59,0.00,5.56,70.60,54.30,-0.94
+19,Rocky Mountain Network - VISN 19,VAM/ROC,Cheyenne,442,WY,442,3,12.56,9.87,13.24,15.38,0.00,77.80,63.90,0.21
+19,Rocky Mountain Network - VISN 19,"Eastern Colorado HCS
+Denver, Pueblo",Denver,554,CO,554,1a,12.37,10.57,14.91,4.05,5.05,67.50,61.10,0.28
+19,Rocky Mountain Network - VISN 19,VAMC,Grand Junction,575,CO,575,2,12.39,9.69,14.19,0.00,0.00,77.80,65.70,-0.47
+19,Rocky Mountain Network - VISN 19,VA Salt Lake City HCS,Salt Lake City,660,UT,660,1b,12.26,8.42,12.51,10.85,2.26,83.10,78.90,-0.20
+19,Rocky Mountain Network - VISN 19,VAMC,Sheridan,666,WY,666,3,12.14,10.63,13.91,,,,,
+20,Northwest Network - VISN 20,Alaska VA HCS and Regional Office,Anchorage,463,AK,463,3,,,,,,,,
+20,Northwest Network - VISN 20,VAMC,Boise,531,ID,531,2,11.77,9.92,14.73,4.13,0.00,66.20,65.60,-0.66
+20,Northwest Network - VISN 20,VAMC,Portland,648,OR,648,1a,10.33,7.93,11.61,0.71,0.96,66.00,63.60,-0.47
+20,Northwest Network - VISN 20,VA Roseburg HCS,Roseburg,653,OR,653,3,13.57,9.98,16.41,0.00,0.00,23.10,40.60,-0.03
+20,Northwest Network - VISN 20,"VA Puget Sound HCS
+Seattle, American Lake",Seattle,663,WA,663,1a,12.92,10.62,14.17,5.27,0.27,78.40,74.80,-0.09
+20,Northwest Network - VISN 20,VAMC,Spokane ,668,WA,668,3,12.07,10.64,13.97,0.00,0.00,62.50,58.10,-1.22
+20,Northwest Network - VISN 20,Jonathan M. Wainwright Memorial VA Medical Center,Walla Walla,687,WA,687,3,,,,,,,,
+20,Northwest Network - VISN 20,Southern Oregon Rehab Ctr & Clinics,White City,692,OR,692,3,,,,,,,,
+21,Sierra Pacific Network - VISN 21,VA Pacific Islands HCSSpark M. Matsunaga VA Medical & Regional Office Center,Honolulu,459,HI,459,3,,,,,,,,
+21,Sierra Pacific Network - VISN 21,VA Cntrl California HCS,Fresno,570,CA,570,2,12.68,10.58,13.95,0.00,0.00,56.50,62.20,0.21
+21,Sierra Pacific Network - VISN 21,"VA Northern California HCS Martinez, Sacramento","Martinez, East Bay",612,CA,612,1c,11.74,7.43,12.43,4.8,4.3,50,61.3,0.19
+21,Sierra Pacific Network - VISN 21,"VA Palo Alto HCS
+PaloAlto, MenloPk, Livermore",Palo Alto,640,CA,640,1a,12.22,9.51,13.43,3.82,3.20,72.00,64.20,-0.73
+21,Sierra Pacific Network - VISN 21,VA Sierra Nevada HCS,Reno,654,NV,654,2,12.08,10.17,13.89,0.00,2.42,75.70,60.60,-0.22
+21,Sierra Pacific Network - VISN 21,VAMC,San Francisco,662,CA,662,1a,11.21,10.07,12.97,5.90,1.18,58.30,42.80,-0.98
+22,Desert Pacific Healthcare Network - VISN 22,VA Sierra Nevada HCS,Las Vegas,593,NV,593,2,12.48,8.35,13.43,2.66,12.05,0,0,0
+22,Desert Pacific Healthcare Network - VISN 22,VA Long Beach HCS,Long Beach,600,CA,600,1c,11.73,8.70,14.37,2.73,2.11,55.70,62.80,-0.92
+22,Desert Pacific Healthcare Network - VISN 22,VA Loma Linda HCS,Loma Linda,605,CA,605,1b,13.53,12.05,16.17,3.41,0.30,71.90,68.30,-0.35
+22,Desert Pacific Healthcare Network - VISN 22,VA San Diego HCS,San Diego,664,CA,664,1a,13.99,8.14,13.97,4.81,3.44,64.60,58.40,-0.90
+22,Desert Pacific Healthcare Network - VISN 22,VA Greater Los Angeles HCS,Los Angeles,691,CA,691,1a,12.94,9.26,13.30,2.70,4.53,74.70,59.20,-0.67
+23,VA Midwest Health Care Network - VISN 23,VAM/RO,Fargo,437,ND,437,2,12.03,8.63,14.35,10.75,0.00,88.60,63.10,-0.30
+23,VA Midwest Health Care Network - VISN 23,VAM/ROC,Sioux Falls,438,SD,438,2,11.87,12.37,14.16,2.38,0.00,70.00,55.70,-0.94
+23,VA Midwest Health Care Network - VISN 23,"VA Black Hills HCS
+Ft Meade, Hot Springs",Fort Meade ,568,SD,568,3,11.40,9.37,13.75,0.0,0.0,69.20,52.10,-0.29
+23,VA Midwest Health Care Network - VISN 23,VAMC,Minneapolis,618,MN,618,1a,12.09,8.47,13.39,11.12,3.47,52.90,63.10,-1.09
+23,VA Midwest Health Care Network - VISN 23,"VA Nebraska Western Iowa HCS  Omaha, Grand Is, Lincoln",Omaha,636,NE,636,1c,12.20,9.75,13.79,2.24,1.56,63.80,61.30,0.50
+23,VA Midwest Health Care Network - VISN 23,"VA Central Iowa HCS
+DesMoines, Knoxville",Des Moines,636,IA,636A6,2,12.89,9.36,13.80,4.93,1.92,59.30,55.70,-0.25
+23,VA Midwest Health Care Network - VISN 23,VAMC,Iowa City,636,IA,636A8,1c,13.18,10.33,12.67,0.00,3.69,70.70,69.00,-0.41
+23,VA Midwest Health Care Network - VISN 23,VAMC,St. Cloud,656,MN,656,3,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
